@@ -1,5 +1,11 @@
-Kafka-node
+Kafka-node2
 ==========
+
+> Kafka-node2 is a fork of Kafka-node, with some features office version too slow to have, such as:
+>
+> 1. listen to `consumersChanged` event in the same time of rebalancing
+> 2. listen to `partitionsChanged` event
+> 3. support `fromLatestOffsetFirstTime` and `fromLatestOffset` options
 
 [![NPM](https://nodei.co/npm/kafka-node.png)](https://nodei.co/npm/kafka-node/)
 [![NPM](https://nodei.co/npm-dl/kafka-node.png?height=3)](https://nodei.co/npm/kafka-node/)
